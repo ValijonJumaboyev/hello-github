@@ -12,6 +12,7 @@ li {
 
 body {
     font-family: fantasy;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -28,7 +29,7 @@ header .container {
 
 .header_list {
     display: flex;
-    column-gap: 30px;
+    justify-content: space-between;
 }
 
 .logo {
@@ -41,15 +42,17 @@ header .container {
     font-weight: 400;
     color: aliceblue;
     padding: 15px 0;
+    margin-left: 20px;
 }
 
 header {
     background: #000;
+    border-bottom: 2px solid blanchedalmond;
 }
 
 section {
     height: 100vh;
-    background: rgba(37, 123, 94, 0.45);
+    background: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +62,13 @@ section {
     font-size: 60px;
     color: rgb(18, 129, 147);
     filter: drop-shadow(8px 8px 4px yellow);
+}
+
+.sec1 {
+    height: 100vh;
+    background-color: orangered;
+}
+
+.sec2 {
+    background-color: yellow;
 }
