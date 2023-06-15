@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: fantasy;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.header-link {
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    padding: 15px 0;
+}
+
+header {
+    background: #000;
+}
+
+section {
+    height: 100vh;
+    background: rgba(37, 123, 94, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github {
+    font-size: 60px;
+    color: rgb(18, 129, 147);
+    filter: drop-shadow(8px 8px 4px yellow);
+}
